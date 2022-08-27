@@ -24,9 +24,9 @@ js_int = "0.1.5"
 lazy_static = "1.4.0"
 sublime_fuzzy = "0.6.0"
 
-matrix-sdk = { git = "https://github.com/matrix-org/matrix-rust-sdk", rev = "037d62b" }
+matrix-sdk = { git = "https://github.com/matrix-org/matrix-rust-sdk", rev = "d4276322" }
 
-mdcat = "0.18.2"
+mdcat = "0.28"
 muncher = "0.6.1"
 regex = "1.3.9"
 
@@ -55,9 +55,9 @@ features = ['simd']
 [dependencies.syntect]
 # onig rust fails to build w/o clang currently so pin syntect,
 # see <https://github.com/rust-onig/rust-onig/issues/109> and GH-90
-version = "4.1.1"
+version = "5.0.0"
 default-features = false
-features = ["parsing", "assets", "dump-load"]
+features = ["parsing", "dump-load"]
 
 [workspace]
 members = ["rumatui-tui"]
